@@ -1,0 +1,172 @@
+/* =========================
+   APP CONTAINER
+========================= */
+.app-container {
+  background: #ffffff;
+  width: 100%;
+  max-width: 900px;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   FORM
+========================= */
+.bmi-form {
+  margin-bottom: 2.5rem;
+}
+
+.bmi-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #374151;
+  font-size: 1.5rem;
+}
+
+.bmi-form input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.bmi-form input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+.bmi-form button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bmi-form button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* =========================
+   RESULT
+========================= */
+.result {
+  margin-top: 1.2rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 10px;
+  text-align: center;
+  border-left: 4px solid #667eea;
+}
+
+.result p {
+  margin: 0.3rem 0;
+  font-weight: 500;
+}
+
+/* =========================
+   BMI LIST
+========================= */
+.bmi-list h2 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #374151;
+  font-size: 1.4rem;
+}
+
+/* =========================
+   BMI CARD
+========================= */
+.bmi-card {
+  background: #ffffff;
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.8rem;
+  align-items: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bmi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+}
+
+.bmi-info p {
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+  color: #374151;
+}
+
+/* =========================
+   STATUS COLORS
+========================= */
+.status {
+  font-weight: 600;
+}
+
+.status.normal {
+  color: #16a34a;
+}
+
+.status.overweight {
+  color: #f97316;
+}
+
+.status.obese {
+  color: #dc2626;
+}
+
+.status.underweight {
+  color: #2563eb;
+}
+
+/* =========================
+   DATE
+========================= */
+.bmi-date {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+/* =========================
+   DELETE BUTTON
+========================= */
+.bmi-card button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #ef4444;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.bmi-card button:hover {
+  background: #dc2626;
+  transform: scale(1.05);
+}
+
+/* =========================
+   EMPTY STATE (Optional)
+========================= */
+.empty-state {
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-top: 1rem;
+}

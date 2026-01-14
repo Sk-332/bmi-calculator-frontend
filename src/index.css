@@ -1,0 +1,35 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; /* Mobile safe spacing */
+  color: #333;
+}
+
+/* =========================
+   SMOOTH EXPERIENCE
+========================= */
+button,
+input {
+  outline: none;
+}
+
+button:focus,
+input:focus {
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
+}

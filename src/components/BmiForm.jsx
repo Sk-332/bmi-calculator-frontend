@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function BmiForm() {
+function BmiForm({ onSuccess }) {
   const [height, setHeight] = useState("");
   const [weight, setWeight] = useState("");
   const [result, setResult] = useState(null);
@@ -21,14 +21,14 @@ function BmiForm() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        height: h,
-        weight: w,
-      }),
+      body: JSON.stringify({ height: h, weight: w }),
     });
 
     const data = await res.json();
     setResult(data);
+
+    // Refresh records
+    if (onSuccess) onSuccess();
   };
 
   return (

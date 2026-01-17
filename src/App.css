@@ -1,6 +1,4 @@
-/* =========================
-   APP CONTAINER
-========================= */
+/* App Container */
 .app-container {
   background: #ffffff;
   width: 100%;
@@ -10,9 +8,7 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 
-/* =========================
-   FORM
-========================= */
+/* Form Css */
 .bmi-form {
   margin-bottom: 2.5rem;
 }
@@ -57,9 +53,7 @@
   box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
 }
 
-/* =========================
-   RESULT
-========================= */
+/* Result Css */
 .result {
   margin-top: 1.2rem;
   padding: 1rem;
@@ -74,9 +68,7 @@
   font-weight: 500;
 }
 
-/* =========================
-   BMI LIST
-========================= */
+/* Bmi List */
 .bmi-list h2 {
   margin-bottom: 1.5rem;
   text-align: center;
@@ -84,9 +76,7 @@
   font-size: 1.4rem;
 }
 
-/* =========================
-   BMI CARD
-========================= */
+/* Bmi Card */
 .bmi-card {
   background: #ffffff;
   padding: 1rem 1.2rem;
@@ -111,9 +101,7 @@
   color: #374151;
 }
 
-/* =========================
-   STATUS COLORS
-========================= */
+/* Status Color */
 .status {
   font-weight: 600;
 }
@@ -134,17 +122,13 @@
   color: #2563eb;
 }
 
-/* =========================
-   DATE
-========================= */
+/* Date Css */
 .bmi-date {
   font-size: 0.8rem;
   color: #6b7280;
 }
 
-/* =========================
-   DELETE BUTTON
-========================= */
+/* Delete Button */
 .bmi-card button {
   padding: 8px 16px;
   border: none;
@@ -161,9 +145,7 @@
   transform: scale(1.05);
 }
 
-/* =========================
-   EMPTY STATE (Optional)
-========================= */
+/* Empty State Css */
 .empty-state {
   text-align: center;
   color: #6b7280;

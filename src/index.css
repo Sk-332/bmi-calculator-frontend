@@ -1,6 +1,4 @@
-/* =========================
-   GLOBAL RESET
-========================= */
+/* Css Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,9 +6,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* =========================
-   BODY
-========================= */
+/* Body */
 body {
   background: linear-gradient(135deg, #667eea, #764ba2);
   min-height: 100vh;
@@ -21,9 +17,7 @@ body {
   color: #333;
 }
 
-/* =========================
-   SMOOTH EXPERIENCE
-========================= */
+/* For smooth behavior */
 button,
 input {
   outline: none;
